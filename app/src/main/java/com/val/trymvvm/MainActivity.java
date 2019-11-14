@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+
+
                 //делаем запрос в другую активити. По завершению она отправит в эту активити такое же значение как и ADD_NOTE_REQUEST
                 //ADD_NOTE_REQUEST нужно что бы однозначно идентифицировать активити
                 Intent intent = new Intent(MainActivity.this, CreateNewNoteActivity.class);
